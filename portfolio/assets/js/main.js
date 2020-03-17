@@ -387,7 +387,9 @@
 
 		// Initialize.
 
-			// Hide main, articles.
+
+			// Hide main, articles. When these lines are removed, the scroll bars go way below the intended article area. 
+			//It appears that this is hiding all the extra divs and various content behind the scenes.
 				$main.hide();
 				$main_articles.hide();
 
